@@ -113,37 +113,7 @@ const Contact = () => {
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="relative rounded-lg bg-white p-8 shadow-lg dark:bg-dark-2 sm:p-12">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyrDPmROCLU-hq06d2hR7BuLhmgH0NL3bSOA&s" alt="" style={{height:"60vh"}}/>
-                {/* <form>
-                  <ContactInputBox
-                    type="text"
-                    name="name"
-                    placeholder="Your Name"
-                  />
-                  <ContactInputBox
-                    type="text"
-                    name="email"
-                    placeholder="Your Email"
-                  />
-                  <ContactInputBox
-                    type="text"
-                    name="phone"
-                    placeholder="Your Phone"
-                  />
-                  <ContactTextArea
-                    row="6"
-                    placeholder="Your Message"
-                    name="details"
-                    defaultValue=""
-                  />
-                  <div>
-                    <button
-                      type="submit"
-                      className="w-full rounded border border-primary bg-primary p-3 text-black bg-gray-300 transition hover:bg-opacity-90"
-                    >
-                      Send Message
-                    </button>
-                  </div>
-                </form> */}
+               
                 <div>
                   <span className="absolute -right-9 -top-10 z-[-1]">
                     <svg
